@@ -8,7 +8,7 @@ export const PasswordGenerator = () => {
         alphabets: 'abcdefghijhklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
         specialCharacters: ':<=>?@_!#%&()*+,-.~'
     };
-    const maxArrayLength: number = 10;
+    const maxArrayLength: number = 5;
     const passwordLength: number = 30;
     const [error, setError] = useState<boolean>(false);
     const [numberCheckBox, setNumberCheckBox] = useState<boolean>(false);
